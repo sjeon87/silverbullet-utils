@@ -10,7 +10,7 @@ event.listen {
     local newPage = journalPrefix .. currentPage
     local text = editor.getText()
     space.writePage(newPage, text)
-    editor.navigate(newPage)
+    editor.navigate(newPage, true)
     space.deletePage(currentPage)
   end
 }
