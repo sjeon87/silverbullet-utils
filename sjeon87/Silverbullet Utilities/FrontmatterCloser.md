@@ -1,3 +1,8 @@
+---
+name: Library/sjeon87/Silverbullet Utilities/FrontmatterCloser
+tags: meta/library
+---
+
 ```space-lua
 event.listen {
   name = 'editor.pageModified',
