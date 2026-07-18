@@ -13,9 +13,9 @@ event.listen {
       return
     end
     local text = editor.getText()
-    local start_pos, end_pos = string.find(text, "^---(%s*)\n")
+    local start_pos, end_pos = string.find(text, "^%-%-%-[ \t]*\n")
     if not start_pos then
-      start_pos, end_pos = string.find(text, "^---(%s*)$")
+      start_pos, end_pos = string.find(text, "^%-%-%-[ \t]*$")
     end
     if not start_pos then
       return
