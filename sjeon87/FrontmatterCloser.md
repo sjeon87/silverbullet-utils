@@ -1,5 +1,5 @@
 ---
-name: Library/sjeon87/Silverbullet Utilities/FrontmatterCloser
+name: Library/sjeon87/FrontmatterCloser
 tags: meta/library
 ---
 

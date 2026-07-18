@@ -1,5 +1,5 @@
 ---
-name: Library/sjeon87/Silverbullet Utilities/JournalMover
+name: Library/sjeon87/JournalMover
 tags: meta/library
 ---
 
